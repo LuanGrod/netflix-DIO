@@ -44,7 +44,7 @@ header nav a:hover{ /*quando o mouse estiver sobre*/
 
 .filme-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)100% ), url('/img/capa-aot.jpg');
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9)10%, rgba(0, 0, 0, 0.5) ), url('/img/capa/capa-aot.jpg');
     height: 400px;
     background-size: cover;
 
@@ -101,9 +101,14 @@ header nav a:hover{ /*quando o mouse estiver sobre*/
     display: block;
 }
 
-.carrossel-filmes{
-    margin-top: 10px;
+.subtitulo{
+    font-family: 'Arial Black', Helvetica, sans-serif;
+    font-size: 24px;
+    margin-left: 20px;
+    margin-top: 8px;
+    margin-bottom: 2px;
 }
+
 
 
 
