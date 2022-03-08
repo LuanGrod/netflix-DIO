@@ -1,0 +1,116 @@
+:root{
+    --vermelho: #e50914;
+    --preto: #141414;
+}
+
+/* elementos base */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--preto);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    color: var(--vermelho);
+    font-family: 'Arial Black';
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 20px;
+}
+
+header nav a:hover{ /*quando o mouse estiver sobre*/
+    color: #fff;
+}
+
+/* filme principal */
+
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)100% ), url('/img/capa-aot.jpg');
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.filme-principal .titulo{
+    margin-top: 10%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botao{
+    background-color: rgba(95, 93, 93, 0.5);
+    border: none;
+    color: white;
+    border-radius: 3%;
+
+    padding: 15px 30px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color: #fff;
+    color: black;
+}
+
+.botao i{
+    margin-right: 4px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrossel-filmes{
+    margin-top: 10px;
+}
+
+
+
+
+/*
+
+*/
+
+
+
